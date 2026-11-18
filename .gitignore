@@ -1,0 +1,29 @@
+# OS·편집기
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# 백업·임시 파일
+*.bak
+*.tmp
+~$*
+_백업/
+
+# 로컬 설정·비밀값 (인증키 OC 등은 저장소에 넣지 않음)
+.env
+.env.*
+*.local.json
+.claude/settings.local.json
+
+# 업무 문서 원본
+*.hwp
+*.hwpx
+*.pdf
+*.docx
+*.xlsx
+
+# 배포용 zip
+*.zip

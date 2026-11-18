@@ -1,0 +1,17 @@
+{
+  "name": "byungiri",
+  "owner": {
+    "name": "기술법인 진성 (Jinseong Technical Corporation)"
+  },
+  "metadata": {
+    "description": "기술법인 진성이 기술사 실무에 쓰는 Claude 플러그인"
+  },
+  "plugins": [
+    {
+      "name": "legal-fact-checker",
+      "source": "./",
+      "description": "법령·판례를 Korean-law-mcp 커넥터로 먼저 검증한 뒤 문서에 인용하도록 하는 Claude 스킬",
+      "version": "2.0.0"
+    }
+  ]
+}
